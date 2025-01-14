@@ -98,7 +98,7 @@ namespace bugtracker {
                 .AllowCredentials();
                 return;
 					    }
-                policy.WithOrigins("https://www.bugtracker.tk", "https://main--bugtrckr.netlify.app")
+                policy.WithOrigins("https://www.bugtracker.tk", "https://main--bugtrckr.netlify.app", "https://bugtrckr.netlify.app")
                 .AllowAnyHeader()
                 .AllowAnyMethod()
                 .AllowCredentials(); 
